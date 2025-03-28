@@ -1,0 +1,35 @@
+2025-03-28 09:01:12,786 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정 시작
+2025-03-28 09:01:12,826 - DreamBodyVideo.DBSetup - INFO - 현재 DB 상태: 0개 비디오, 0개 페이지, 0개 영상 할당
+2025-03-28 09:01:12,826 - DreamBodyVideo.DBSetup - INFO - 페이지 데이터 생성 중...
+2025-03-28 09:01:12,832 - DreamBodyVideo.DBSetup - INFO - 3개 페이지 생성 완료
+2025-03-28 09:01:12,832 - DreamBodyVideo.DBSetup - INFO - 비디오 데이터 추가 중...
+2025-03-28 09:01:12,837 - DreamBodyVideo.DBSetup - INFO - 9개 테스트 비디오 추가 완료
+2025-03-28 09:01:12,837 - DreamBodyVideo.DBSetup - INFO - 페이지에 비디오 할당 중...
+2025-03-28 09:01:12,841 - DreamBodyVideo.DBSetup - INFO - 페이지당 3개씩 비디오 할당 완료
+2025-03-28 09:01:12,842 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정 완료: 9개 비디오, 3개 페이지, 9개 영상 할당
+2025-03-28 09:01:12,843 - DreamBodyVideo.DBSetup - INFO - 페이지 1 할당된 비디오: 3개
+2025-03-28 09:01:12,844 - DreamBodyVideo.DBSetup - INFO -   - 순서 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 09:01:12,845 - DreamBodyVideo.DBSetup - INFO -   - 순서 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 09:01:12,845 - DreamBodyVideo.DBSetup - INFO -   - 순서 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 09:01:12,845 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정이 완료되었습니다.
+2025-03-28 09:01:12,845 - DreamBodyVideo.DBSetup - INFO - 현재 데이터베이스 경로: /Volumes/LDK_DISK/dev/peronal/2025/dreambody_video/dreambody.db
+2025-03-28 10:20:06,907 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정 시작
+2025-03-28 10:20:06,951 - DreamBodyVideo.DBSetup - INFO - 현재 DB 상태: 9개 비디오, 3개 페이지, 9개 영상 할당
+2025-03-28 10:20:06,951 - DreamBodyVideo.DBSetup - INFO - 데이터베이스에 이미 테스트 데이터가 존재합니다.
+2025-03-28 10:20:06,952 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정 완료: 9개 비디오, 3개 페이지, 9개 영상 할당
+2025-03-28 10:20:06,953 - DreamBodyVideo.DBSetup - INFO - 페이지 1 할당된 비디오: 3개
+2025-03-28 10:20:06,954 - DreamBodyVideo.DBSetup - INFO -   - 순서 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:20:06,954 - DreamBodyVideo.DBSetup - INFO -   - 순서 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 10:20:06,954 - DreamBodyVideo.DBSetup - INFO -   - 순서 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 10:20:06,955 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정이 완료되었습니다.
+2025-03-28 10:20:06,955 - DreamBodyVideo.DBSetup - INFO - 현재 데이터베이스 경로: /Volumes/LDK_DISK/dev/peronal/2025/dreambody_video/dreambody.db
+2025-03-28 10:26:31,110 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정 시작
+2025-03-28 10:26:31,177 - DreamBodyVideo.DBSetup - INFO - 현재 DB 상태: 9개 비디오, 3개 페이지, 9개 영상 할당
+2025-03-28 10:26:31,178 - DreamBodyVideo.DBSetup - INFO - 데이터베이스에 이미 테스트 데이터가 존재합니다.
+2025-03-28 10:26:31,178 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정 완료: 9개 비디오, 3개 페이지, 9개 영상 할당
+2025-03-28 10:26:31,179 - DreamBodyVideo.DBSetup - INFO - 페이지 1 할당된 비디오: 3개
+2025-03-28 10:26:31,180 - DreamBodyVideo.DBSetup - INFO -   - 순서 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:26:31,181 - DreamBodyVideo.DBSetup - INFO -   - 순서 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 10:26:31,181 - DreamBodyVideo.DBSetup - INFO -   - 순서 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 10:26:31,182 - DreamBodyVideo.DBSetup - INFO - 테스트 데이터베이스 설정이 완료되었습니다.
+2025-03-28 10:26:31,182 - DreamBodyVideo.DBSetup - INFO - 현재 데이터베이스 경로: /Volumes/LDK_DISK/dev/peronal/2025/dreambody_video/dreambody.db

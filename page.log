@@ -1,0 +1,650 @@
+2025-03-28 09:01:52,081 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 09:01:52,399 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 09:02:10,135 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 09:02:10,438 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 09:02:10,441 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 09:02:10,444 - DreamBodyVideo.Page - INFO - 영상 1: 운동영상1 (https://youtu.be/h_9ZZvH4s6c?si=PjgQPWOQ85F2KPRw)
+2025-03-28 09:02:10,444 - DreamBodyVideo.Page - INFO - 영상 2: 운동영상2 (https://youtu.be/F-Jd4kI6rdM?si=pl2rlowDTH5VTiQP)
+2025-03-28 09:02:10,445 - DreamBodyVideo.Page - INFO - 영상 3: 운동영상3 (https://youtu.be/0iqP6WP2ET4?si=d35O-ef-P8SQQYyh)
+2025-03-28 09:02:10,445 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 09:02:10,508 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 09:02:10,509 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: h_9ZZvH4s6c
+2025-03-28 09:02:10,510 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/h_9ZZvH4s6c/mqdefault.jpg
+2025-03-28 09:02:10,847 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 완료: /Users/vitamin/.dreambody_cache/h_9ZZvH4s6c.jpg
+2025-03-28 09:02:10,930 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 09:02:10,930 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=운동영상1, 비디오ID=h_9ZZvH4s6c
+2025-03-28 09:02:10,930 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 09:02:10,930 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: F-Jd4kI6rdM
+2025-03-28 09:02:10,931 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/F-Jd4kI6rdM/mqdefault.jpg
+2025-03-28 09:02:11,199 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 완료: /Users/vitamin/.dreambody_cache/F-Jd4kI6rdM.jpg
+2025-03-28 09:02:11,201 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 09:02:11,201 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=운동영상2, 비디오ID=F-Jd4kI6rdM
+2025-03-28 09:02:11,201 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 09:02:11,202 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: 0iqP6WP2ET4
+2025-03-28 09:02:11,203 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/0iqP6WP2ET4/mqdefault.jpg
+2025-03-28 09:02:11,386 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 완료: /Users/vitamin/.dreambody_cache/0iqP6WP2ET4.jpg
+2025-03-28 09:02:11,387 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 09:02:11,388 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=3, 제목=운동영상3, 비디오ID=0iqP6WP2ET4
+2025-03-28 09:02:11,388 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 09:02:11,388 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 09:02:11,389 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 09:02:11,597 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 09:02:11,597 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 09:02:11,597 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 09:02:11,604 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 09:02:12,440 - DreamBodyVideo.Page - INFO - 카운트다운: 2
+2025-03-28 09:02:13,490 - DreamBodyVideo.Page - INFO - 카운트다운: 1
+2025-03-28 09:02:14,540 - DreamBodyVideo.Page - INFO - 카운트다운: 0
+2025-03-28 09:02:14,541 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 09:02:14,541 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 09:02:14,637 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 09:02:14,638 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 09:02:14,638 - DreamBodyVideo.Page - INFO - 2번 비디오 확대
+2025-03-28 09:02:14,638 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 09:02:14,638 - DreamBodyVideo.Page - INFO - 4번 비디오 축소
+2025-03-28 09:02:14,638 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료 (확대 높이: 372, 일반 높이: 124)
+2025-03-28 09:02:14,638 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:20:15,883 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 10:20:16,471 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 10:20:16,473 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 10:20:16,476 - DreamBodyVideo.Page - INFO - 영상 1: 운동영상1 (https://youtu.be/h_9ZZvH4s6c?si=PjgQPWOQ85F2KPRw)
+2025-03-28 10:20:16,477 - DreamBodyVideo.Page - INFO - 영상 2: 운동영상2 (https://youtu.be/F-Jd4kI6rdM?si=pl2rlowDTH5VTiQP)
+2025-03-28 10:20:16,477 - DreamBodyVideo.Page - INFO - 영상 3: 운동영상3 (https://youtu.be/0iqP6WP2ET4?si=d35O-ef-P8SQQYyh)
+2025-03-28 10:20:16,477 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 10:20:16,497 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 10:20:16,497 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: h_9ZZvH4s6c
+2025-03-28 10:20:16,501 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/h_9ZZvH4s6c.jpg
+2025-03-28 10:20:16,548 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:16,549 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=운동영상1, 비디오ID=h_9ZZvH4s6c
+2025-03-28 10:20:16,549 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:20:16,549 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: F-Jd4kI6rdM
+2025-03-28 10:20:16,549 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/F-Jd4kI6rdM.jpg
+2025-03-28 10:20:16,550 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:16,551 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=운동영상2, 비디오ID=F-Jd4kI6rdM
+2025-03-28 10:20:16,551 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:20:16,551 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: 0iqP6WP2ET4
+2025-03-28 10:20:16,551 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/0iqP6WP2ET4.jpg
+2025-03-28 10:20:16,552 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:16,552 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=3, 제목=운동영상3, 비디오ID=0iqP6WP2ET4
+2025-03-28 10:20:16,552 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:20:16,552 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 10:20:16,553 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 10:20:16,924 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:16,924 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:16,925 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:16,949 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 10:20:17,660 - DreamBodyVideo.Page - INFO - 카운트다운: 2
+2025-03-28 10:20:18,654 - DreamBodyVideo.Page - INFO - 카운트다운: 1
+2025-03-28 10:20:19,704 - DreamBodyVideo.Page - INFO - 카운트다운: 0
+2025-03-28 10:20:19,704 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 10:20:19,704 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 10:20:19,807 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 10:20:19,807 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 10:20:19,807 - DreamBodyVideo.Page - INFO - 2번 비디오 확대
+2025-03-28 10:20:19,807 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:20:19,808 - DreamBodyVideo.Page - INFO - 4번 비디오 축소
+2025-03-28 10:20:19,808 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료 (확대 높이: 372, 일반 높이: 124)
+2025-03-28 10:20:19,808 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:20:28,653 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,654 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,654 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,668 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,668 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,669 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,679 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,680 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,680 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,696 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,696 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,696 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,708 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,708 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,709 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,724 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,725 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,725 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,741 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,741 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,741 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,762 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,762 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,762 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,774 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,796 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,796 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,796 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:28,844 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:20:29,164 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:21:19,708 - DreamBodyVideo.Page - INFO - 다음 영상(2) 확대 시작
+2025-03-28 10:21:19,710 - DreamBodyVideo.Page - INFO - 비디오 2 확대 시작
+2025-03-28 10:21:19,710 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:21:19,711 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:21:19,713 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:21:19,713 - DreamBodyVideo.Page - INFO - 3번 비디오 확대
+2025-03-28 10:21:19,713 - DreamBodyVideo.Page - INFO - 4번 비디오 축소
+2025-03-28 10:21:19,713 - DreamBodyVideo.Page - INFO - 비디오 2 확대 완료 (확대 높이: 411, 일반 높이: 137)
+2025-03-28 10:22:19,708 - DreamBodyVideo.Page - INFO - 다음 영상(3) 확대 시작
+2025-03-28 10:22:19,710 - DreamBodyVideo.Page - INFO - 비디오 3 확대 시작
+2025-03-28 10:22:19,710 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:22:19,712 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:22:19,712 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:22:19,714 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:22:19,714 - DreamBodyVideo.Page - INFO - 4번 비디오 확대
+2025-03-28 10:22:19,714 - DreamBodyVideo.Page - INFO - 비디오 3 확대 완료 (확대 높이: 411, 일반 높이: 137)
+2025-03-28 10:22:19,714 - DreamBodyVideo.Page - INFO - 마지막 영상 확대 중, 종료 타이머 설정 (60초)
+2025-03-28 10:26:37,902 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 10:26:38,351 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 10:26:38,359 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 10:26:38,361 - DreamBodyVideo.Page - INFO - 영상 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:26:38,361 - DreamBodyVideo.Page - INFO - 영상 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 10:26:38,362 - DreamBodyVideo.Page - INFO - 영상 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 10:26:38,362 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 10:26:38,403 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 10:26:38,404 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: Tz9d7By2ytQ
+2025-03-28 10:26:39,274 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/Tz9d7By2ytQ/mqdefault.jpg
+2025-03-28 10:26:39,617 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 완료: /Users/vitamin/.dreambody_cache/Tz9d7By2ytQ.jpg
+2025-03-28 10:26:39,664 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:26:39,665 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=0, 제목=5분 전신 스트레칭, 비디오ID=Tz9d7By2ytQ
+2025-03-28 10:26:39,665 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:26:39,665 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: f9N5xA3LPBg
+2025-03-28 10:26:39,666 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/f9N5xA3LPBg/mqdefault.jpg
+2025-03-28 10:26:39,875 - DreamBodyVideo.Page - ERROR - 썸네일 다운로드 실패: HTTP Error 404: Not Found
+2025-03-28 10:26:39,875 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=10분 HIIT 운동, 비디오ID=f9N5xA3LPBg
+2025-03-28 10:26:39,875 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:26:39,876 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: AnYl6Nk9GOA
+2025-03-28 10:26:39,878 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/AnYl6Nk9GOA/mqdefault.jpg
+2025-03-28 10:26:40,070 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 완료: /Users/vitamin/.dreambody_cache/AnYl6Nk9GOA.jpg
+2025-03-28 10:26:40,072 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:26:40,072 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=15분 복부 운동, 비디오ID=AnYl6Nk9GOA
+2025-03-28 10:26:40,072 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:26:40,073 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 10:26:40,074 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 10:26:40,265 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:26:40,266 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:26:40,270 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 10:26:41,125 - DreamBodyVideo.Page - INFO - 카운트다운: 2
+2025-03-28 10:26:42,175 - DreamBodyVideo.Page - INFO - 카운트다운: 1
+2025-03-28 10:26:43,212 - DreamBodyVideo.Page - INFO - 카운트다운: 0
+2025-03-28 10:26:43,212 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 10:26:43,213 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 10:26:43,313 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 10:26:43,313 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 10:26:43,313 - DreamBodyVideo.Page - INFO - 1번 비디오 확대
+2025-03-28 10:26:43,315 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:26:43,605 - DreamBodyVideo.Page - INFO - 비디오 1 로드됨: ID=Tz9d7By2ytQ
+2025-03-28 10:26:43,727 - DreamBodyVideo.Page - INFO - 비디오 1 재생 시작
+2025-03-28 10:26:43,728 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:26:43,728 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:26:43,729 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료 (확대 높이: 372, 일반 높이: 124)
+2025-03-28 10:26:43,729 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:27:23,409 - DreamBodyVideo.Page - INFO - 비디오 3 로드됨: ID=AnYl6Nk9GOA
+2025-03-28 10:27:23,438 - DreamBodyVideo.Page - INFO - 비디오 3 재생 시작
+2025-03-28 10:27:28,844 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,846 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,886 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,887 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,919 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,920 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,952 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,984 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:28,985 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:29,017 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:29,018 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:29,051 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:29,052 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:29,085 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,387 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,388 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,418 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,419 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,452 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,453 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,502 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,503 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,535 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,535 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,568 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,569 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,601 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:32,602 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,605 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,606 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,636 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,637 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,670 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,671 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,702 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,703 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,735 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,736 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,769 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,769 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,801 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:33,802 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,021 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,022 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,052 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,053 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,087 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,088 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,119 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,120 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,152 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,153 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,185 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,186 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,218 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,219 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,252 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,252 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,285 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,286 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,318 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,319 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,405 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,406 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,435 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,436 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,468 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,469 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,502 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,502 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,535 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:34,536 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:43,713 - DreamBodyVideo.Page - INFO - 다음 영상(2) 확대 시작
+2025-03-28 10:27:43,713 - DreamBodyVideo.Page - INFO - 비디오 2 확대 시작
+2025-03-28 10:27:43,718 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:43,718 - DreamBodyVideo.Page - INFO - 1번 비디오 축소
+2025-03-28 10:27:43,722 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:27:43,723 - DreamBodyVideo.Page - INFO - 비디오 1 재생 정지
+2025-03-28 10:27:43,723 - DreamBodyVideo.Page - INFO - 2번 비디오 확대
+2025-03-28 10:27:43,727 - DreamBodyVideo.Page - INFO - 비디오 2 로드됨: ID=f9N5xA3LPBg
+2025-03-28 10:27:43,753 - DreamBodyVideo.Page - INFO - 비디오 2 재생 시작
+2025-03-28 10:27:43,754 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:27:43,756 - DreamBodyVideo.Page - INFO - 비디오 3 재생 정지
+2025-03-28 10:27:43,756 - DreamBodyVideo.Page - INFO - 비디오 2 확대 완료 (확대 높이: 415, 일반 높이: 138)
+2025-03-28 10:31:40,688 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 10:31:41,133 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 10:31:41,137 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 10:31:41,139 - DreamBodyVideo.Page - INFO - 영상 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:31:41,140 - DreamBodyVideo.Page - INFO - 영상 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 10:31:41,140 - DreamBodyVideo.Page - INFO - 영상 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 10:31:41,140 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 10:31:41,181 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 10:31:41,182 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: Tz9d7By2ytQ
+2025-03-28 10:31:41,963 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/Tz9d7By2ytQ.jpg
+2025-03-28 10:31:42,035 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:31:42,035 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=0, 제목=5분 전신 스트레칭, 비디오ID=Tz9d7By2ytQ
+2025-03-28 10:31:42,035 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:31:42,036 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: f9N5xA3LPBg
+2025-03-28 10:31:42,037 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/f9N5xA3LPBg/mqdefault.jpg
+2025-03-28 10:31:42,366 - DreamBodyVideo.Page - ERROR - 썸네일 다운로드 실패: HTTP Error 404: Not Found
+2025-03-28 10:31:42,366 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=10분 HIIT 운동, 비디오ID=f9N5xA3LPBg
+2025-03-28 10:31:42,366 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:31:42,369 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: AnYl6Nk9GOA
+2025-03-28 10:31:42,370 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/AnYl6Nk9GOA.jpg
+2025-03-28 10:31:42,372 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:31:42,372 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=15분 복부 운동, 비디오ID=AnYl6Nk9GOA
+2025-03-28 10:31:42,372 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:31:42,377 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 10:31:42,378 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 10:31:42,531 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 10:31:43,330 - DreamBodyVideo.Page - INFO - 카운트다운: 00:02
+2025-03-28 10:31:44,280 - DreamBodyVideo.Page - INFO - 카운트다운: 00:01
+2025-03-28 10:31:45,229 - DreamBodyVideo.Page - INFO - 카운트다운: 00:00
+2025-03-28 10:31:45,230 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 10:31:45,230 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 10:31:45,326 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 10:31:45,326 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 10:31:45,327 - DreamBodyVideo.Page - INFO - 1번 비디오 확대
+2025-03-28 10:31:45,552 - DreamBodyVideo.Page - INFO - 비디오 1 로드됨: ID=Tz9d7By2ytQ
+2025-03-28 10:31:45,680 - DreamBodyVideo.Page - INFO - 비디오 1 재생 시작
+2025-03-28 10:31:45,680 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:31:45,681 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:31:45,681 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료
+2025-03-28 10:31:45,681 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:33:29,491 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 10:33:29,854 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 10:33:29,857 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 10:33:29,860 - DreamBodyVideo.Page - INFO - 영상 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:33:29,860 - DreamBodyVideo.Page - INFO - 영상 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 10:33:29,860 - DreamBodyVideo.Page - INFO - 영상 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 10:33:29,860 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 10:33:29,899 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 10:33:29,900 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: Tz9d7By2ytQ
+2025-03-28 10:33:30,721 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/Tz9d7By2ytQ.jpg
+2025-03-28 10:33:30,809 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:33:30,809 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=0, 제목=5분 전신 스트레칭, 비디오ID=Tz9d7By2ytQ
+2025-03-28 10:33:30,809 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:33:30,811 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: f9N5xA3LPBg
+2025-03-28 10:33:30,811 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/f9N5xA3LPBg/mqdefault.jpg
+2025-03-28 10:33:31,106 - DreamBodyVideo.Page - ERROR - 썸네일 다운로드 실패: HTTP Error 404: Not Found
+2025-03-28 10:33:31,107 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=10분 HIIT 운동, 비디오ID=f9N5xA3LPBg
+2025-03-28 10:33:31,107 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:33:31,111 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: AnYl6Nk9GOA
+2025-03-28 10:33:31,113 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/AnYl6Nk9GOA.jpg
+2025-03-28 10:33:31,115 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:33:31,115 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=15분 복부 운동, 비디오ID=AnYl6Nk9GOA
+2025-03-28 10:33:31,115 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:33:31,120 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 10:33:31,121 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 10:33:31,252 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 10:33:32,172 - DreamBodyVideo.Page - INFO - 카운트다운: 00:02
+2025-03-28 10:33:33,219 - DreamBodyVideo.Page - INFO - 카운트다운: 00:01
+2025-03-28 10:33:34,220 - DreamBodyVideo.Page - INFO - 카운트다운: 00:00
+2025-03-28 10:33:34,220 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 10:33:34,220 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 10:33:34,319 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 10:33:34,319 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 10:33:34,319 - DreamBodyVideo.Page - INFO - 1번 비디오 확대
+2025-03-28 10:33:34,633 - DreamBodyVideo.Page - INFO - 비디오 1 로드됨: ID=Tz9d7By2ytQ
+2025-03-28 10:33:34,754 - DreamBodyVideo.Page - INFO - 비디오 1 재생 시작
+2025-03-28 10:33:34,755 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:33:34,755 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:33:34,755 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료
+2025-03-28 10:33:34,755 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:38:48,443 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 10:38:48,893 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 10:38:48,904 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 10:38:48,907 - DreamBodyVideo.Page - INFO - 영상 0: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:38:48,907 - DreamBodyVideo.Page - INFO - 영상 1: 10분 HIIT 운동 (https://www.youtube.com/watch?v=f9N5xA3LPBg)
+2025-03-28 10:38:48,907 - DreamBodyVideo.Page - INFO - 영상 2: 15분 복부 운동 (https://www.youtube.com/watch?v=AnYl6Nk9GOA)
+2025-03-28 10:38:48,907 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 10:38:48,947 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 10:38:48,948 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: Tz9d7By2ytQ
+2025-03-28 10:38:49,776 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/Tz9d7By2ytQ.jpg
+2025-03-28 10:38:49,860 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:38:49,860 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=0, 제목=5분 전신 스트레칭, 비디오ID=Tz9d7By2ytQ
+2025-03-28 10:38:49,860 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:38:49,862 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: f9N5xA3LPBg
+2025-03-28 10:38:49,862 - DreamBodyVideo.Page - INFO - 썸네일 다운로드 시작: https://img.youtube.com/vi/f9N5xA3LPBg/mqdefault.jpg
+2025-03-28 10:38:50,157 - DreamBodyVideo.Page - ERROR - 썸네일 다운로드 실패: HTTP Error 404: Not Found
+2025-03-28 10:38:50,158 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=10분 HIIT 운동, 비디오ID=f9N5xA3LPBg
+2025-03-28 10:38:50,158 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:38:50,159 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: AnYl6Nk9GOA
+2025-03-28 10:38:50,160 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/AnYl6Nk9GOA.jpg
+2025-03-28 10:38:50,161 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:38:50,161 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=15분 복부 운동, 비디오ID=AnYl6Nk9GOA
+2025-03-28 10:38:50,161 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:38:50,164 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 10:38:50,164 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 10:38:50,320 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 10:38:51,215 - DreamBodyVideo.Page - INFO - 카운트다운: 00:02
+2025-03-28 10:38:52,224 - DreamBodyVideo.Page - INFO - 카운트다운: 00:01
+2025-03-28 10:38:53,224 - DreamBodyVideo.Page - INFO - 카운트다운: 00:00
+2025-03-28 10:38:53,224 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 10:38:53,224 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 10:38:53,324 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 10:38:53,324 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 10:38:53,325 - DreamBodyVideo.Page - INFO - 1번 비디오 확대
+2025-03-28 10:38:53,518 - DreamBodyVideo.Page - INFO - 비디오 1 로드됨: ID=Tz9d7By2ytQ
+2025-03-28 10:38:53,647 - DreamBodyVideo.Page - INFO - 비디오 1 재생 시작
+2025-03-28 10:38:53,647 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:38:53,647 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:38:53,647 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료
+2025-03-28 10:38:53,647 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:38:54,700 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 59초
+2025-03-28 10:38:55,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 58초
+2025-03-28 10:38:56,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 57초
+2025-03-28 10:38:57,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 56초
+2025-03-28 10:38:58,732 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 55초
+2025-03-28 10:38:59,723 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 54초
+2025-03-28 10:39:00,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 53초
+2025-03-28 10:39:01,723 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 52초
+2025-03-28 10:39:02,723 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 51초
+2025-03-28 10:39:03,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 50초
+2025-03-28 10:39:04,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 49초
+2025-03-28 10:39:05,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 48초
+2025-03-28 10:39:06,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 47초
+2025-03-28 10:39:07,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 46초
+2025-03-28 10:39:08,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 45초
+2025-03-28 10:39:09,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 44초
+2025-03-28 10:39:10,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 43초
+2025-03-28 10:39:11,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 42초
+2025-03-28 10:39:12,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 41초
+2025-03-28 10:39:13,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 40초
+2025-03-28 10:39:14,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 39초
+2025-03-28 10:39:15,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 38초
+2025-03-28 10:39:16,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 37초
+2025-03-28 10:39:17,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 36초
+2025-03-28 10:39:18,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 35초
+2025-03-28 10:39:19,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 34초
+2025-03-28 10:39:20,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 33초
+2025-03-28 10:39:21,726 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 32초
+2025-03-28 10:39:22,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 31초
+2025-03-28 10:39:23,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 30초
+2025-03-28 10:39:24,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 29초
+2025-03-28 10:39:25,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 28초
+2025-03-28 10:39:26,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 27초
+2025-03-28 10:39:27,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 26초
+2025-03-28 10:39:28,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 25초
+2025-03-28 10:39:29,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 24초
+2025-03-28 10:39:30,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 23초
+2025-03-28 10:39:31,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 22초
+2025-03-28 10:39:32,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 21초
+2025-03-28 10:39:33,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 20초
+2025-03-28 10:39:34,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 19초
+2025-03-28 10:39:35,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 18초
+2025-03-28 10:39:36,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 17초
+2025-03-28 10:39:37,724 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 16초
+2025-03-28 10:39:38,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 15초
+2025-03-28 10:39:39,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 14초
+2025-03-28 10:39:40,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 13초
+2025-03-28 10:39:41,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 12초
+2025-03-28 10:39:42,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 11초
+2025-03-28 10:39:43,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 10초
+2025-03-28 10:39:44,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 9초
+2025-03-28 10:39:45,726 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 8초
+2025-03-28 10:39:46,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 7초
+2025-03-28 10:39:47,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 6초
+2025-03-28 10:39:48,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 5초
+2025-03-28 10:39:49,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 4초
+2025-03-28 10:39:50,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 3초
+2025-03-28 10:39:51,726 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 2초
+2025-03-28 10:39:52,725 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 1초
+2025-03-28 10:39:53,725 - DreamBodyVideo.Page - INFO - 다음 영상(2) 확대 시작
+2025-03-28 10:39:53,726 - DreamBodyVideo.Page - INFO - 비디오 2 확대 시작
+2025-03-28 10:39:53,726 - DreamBodyVideo.Page - INFO - 1번 비디오 축소
+2025-03-28 10:39:53,728 - DreamBodyVideo.Page - INFO - 비디오 1 재생 정지
+2025-03-28 10:39:53,728 - DreamBodyVideo.Page - INFO - 2번 비디오 확대
+2025-03-28 10:39:53,732 - DreamBodyVideo.Page - INFO - 비디오 2 로드됨: ID=f9N5xA3LPBg
+2025-03-28 10:39:53,763 - DreamBodyVideo.Page - INFO - 비디오 2 재생 시작
+2025-03-28 10:39:53,763 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:39:53,763 - DreamBodyVideo.Page - INFO - 비디오 2 확대 완료
+2025-03-28 10:39:53,764 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 59초
+2025-03-28 10:39:54,725 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 58초
+2025-03-28 10:39:55,725 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 57초
+2025-03-28 10:39:56,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 56초
+2025-03-28 10:39:57,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 55초
+2025-03-28 10:39:58,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 54초
+2025-03-28 10:39:59,725 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 53초
+2025-03-28 10:40:00,725 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 52초
+2025-03-28 10:40:01,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 51초
+2025-03-28 10:40:02,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 50초
+2025-03-28 10:40:03,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 49초
+2025-03-28 10:40:04,726 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 48초
+2025-03-28 10:47:07,225 - DreamBodyVideo.TestPage - INFO - 명령줄에서 페이지 ID 1로 설정됨
+2025-03-28 10:47:07,703 - DreamBodyVideo.TestPage - INFO - 페이지 1 테스트 모드로 시작
+2025-03-28 10:47:07,714 - DreamBodyVideo.Page - INFO - 페이지 1의 영상을 로딩합니다.
+2025-03-28 10:47:07,717 - DreamBodyVideo.Page - INFO - 영상 1: 5분 전신 스트레칭 (https://www.youtube.com/watch?v=Tz9d7By2ytQ)
+2025-03-28 10:47:07,717 - DreamBodyVideo.Page - INFO - 영상 2: 10분 HIIT 운동 (https://youtu.be/0iqP6WP2ET4?si=go_nbjmjWL6gNH5N)
+2025-03-28 10:47:07,718 - DreamBodyVideo.Page - INFO - 영상 3: 15분 복부 운동 (https://youtu.be/__sqpWQ4-B8?si=mJlfIjtMteQPMuoz)
+2025-03-28 10:47:07,718 - DreamBodyVideo.Page - INFO - 총 3개 영상이 로드되었습니다.
+2025-03-28 10:47:07,756 - DreamBodyVideo.Page - INFO - 영상 플레이어 3개 추가
+2025-03-28 10:47:07,757 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: Tz9d7By2ytQ
+2025-03-28 10:47:08,528 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/Tz9d7By2ytQ.jpg
+2025-03-28 10:47:08,590 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:47:08,590 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=1, 제목=5분 전신 스트레칭, 비디오ID=Tz9d7By2ytQ
+2025-03-28 10:47:08,590 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:47:08,592 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: 0iqP6WP2ET4
+2025-03-28 10:47:08,593 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/0iqP6WP2ET4.jpg
+2025-03-28 10:47:08,593 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:47:08,593 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=2, 제목=10분 HIIT 운동, 비디오ID=0iqP6WP2ET4
+2025-03-28 10:47:08,594 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:47:08,595 - DreamBodyVideo.Page - INFO - 비디오 ID 추출 성공: __sqpWQ4-B8
+2025-03-28 10:47:08,595 - DreamBodyVideo.Page - INFO - 캐시된 썸네일 사용: /Users/vitamin/.dreambody_cache/__sqpWQ4-B8.jpg
+2025-03-28 10:47:08,596 - DreamBodyVideo.Page - INFO - 썸네일 표시 완료
+2025-03-28 10:47:08,596 - DreamBodyVideo.Page - INFO - 비디오 플레이어 초기화: 순서=3, 제목=15분 복부 운동, 비디오ID=__sqpWQ4-B8
+2025-03-28 10:47:08,596 - DreamBodyVideo.Page - INFO - 볼륨 설정: 50
+2025-03-28 10:47:08,599 - DreamBodyVideo.Page - INFO - 타이머 설정: 초기 딜레이 3초, 줌 지속시간 60초
+2025-03-28 10:47:08,599 - DreamBodyVideo.Page - INFO - 카운트다운 타이머 시작
+2025-03-28 10:47:08,678 - DreamBodyVideo.TestPage - INFO - 테스트 페이지 애플리케이션 시작
+2025-03-28 10:47:09,651 - DreamBodyVideo.Page - INFO - 카운트다운: 00:02
+2025-03-28 10:47:10,701 - DreamBodyVideo.Page - INFO - 카운트다운: 00:01
+2025-03-28 10:47:11,701 - DreamBodyVideo.Page - INFO - 카운트다운: 00:00
+2025-03-28 10:47:11,702 - DreamBodyVideo.Page - INFO - 카운트다운 종료
+2025-03-28 10:47:11,702 - DreamBodyVideo.Page - INFO - 첫 영상 확대 타이머 시작
+2025-03-28 10:47:11,801 - DreamBodyVideo.Page - INFO - 첫 번째 영상 확대 시작
+2025-03-28 10:47:11,802 - DreamBodyVideo.Page - INFO - 비디오 1 확대 시작
+2025-03-28 10:47:11,802 - DreamBodyVideo.Page - INFO - 2번 비디오 확대
+2025-03-28 10:47:11,996 - DreamBodyVideo.Page - INFO - 비디오 2 로드됨: ID=Tz9d7By2ytQ
+2025-03-28 10:47:12,111 - DreamBodyVideo.Page - INFO - 비디오 2 재생 시작
+2025-03-28 10:47:12,112 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:47:12,112 - DreamBodyVideo.Page - INFO - 4번 비디오 축소
+2025-03-28 10:47:12,112 - DreamBodyVideo.Page - INFO - 비디오 1 확대 완료
+2025-03-28 10:47:12,112 - DreamBodyVideo.Page - INFO - 다음 영상 전환 타이머 시작 (60초)
+2025-03-28 10:47:13,163 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 59초
+2025-03-28 10:47:14,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 58초
+2025-03-28 10:47:15,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 57초
+2025-03-28 10:47:16,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 56초
+2025-03-28 10:47:17,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 55초
+2025-03-28 10:47:18,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 54초
+2025-03-28 10:47:19,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 53초
+2025-03-28 10:47:20,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 52초
+2025-03-28 10:47:21,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 51초
+2025-03-28 10:47:22,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 50초
+2025-03-28 10:47:23,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 49초
+2025-03-28 10:47:24,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 48초
+2025-03-28 10:47:25,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 47초
+2025-03-28 10:47:26,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 46초
+2025-03-28 10:47:27,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 45초
+2025-03-28 10:47:28,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 44초
+2025-03-28 10:47:29,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 43초
+2025-03-28 10:47:30,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 42초
+2025-03-28 10:47:31,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 41초
+2025-03-28 10:47:32,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 40초
+2025-03-28 10:47:33,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 39초
+2025-03-28 10:47:34,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 38초
+2025-03-28 10:47:35,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 37초
+2025-03-28 10:47:36,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 36초
+2025-03-28 10:47:37,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 35초
+2025-03-28 10:47:38,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 34초
+2025-03-28 10:47:39,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 33초
+2025-03-28 10:47:40,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 32초
+2025-03-28 10:47:41,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 31초
+2025-03-28 10:47:42,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 30초
+2025-03-28 10:47:43,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 29초
+2025-03-28 10:47:44,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 28초
+2025-03-28 10:47:45,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 27초
+2025-03-28 10:47:46,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 26초
+2025-03-28 10:47:47,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 25초
+2025-03-28 10:47:48,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 24초
+2025-03-28 10:47:49,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 23초
+2025-03-28 10:47:50,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 22초
+2025-03-28 10:47:51,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 21초
+2025-03-28 10:47:52,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 20초
+2025-03-28 10:47:53,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 19초
+2025-03-28 10:47:54,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 18초
+2025-03-28 10:47:55,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 17초
+2025-03-28 10:47:56,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 16초
+2025-03-28 10:47:57,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 15초
+2025-03-28 10:47:58,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 14초
+2025-03-28 10:47:59,200 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 13초
+2025-03-28 10:48:00,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 12초
+2025-03-28 10:48:01,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 11초
+2025-03-28 10:48:02,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 10초
+2025-03-28 10:48:03,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 9초
+2025-03-28 10:48:04,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 8초
+2025-03-28 10:48:05,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 7초
+2025-03-28 10:48:06,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 6초
+2025-03-28 10:48:07,202 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 5초
+2025-03-28 10:48:08,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 4초
+2025-03-28 10:48:09,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 3초
+2025-03-28 10:48:10,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 2초
+2025-03-28 10:48:11,201 - DreamBodyVideo.Page - INFO - 비디오 1 남은 시간: 1초
+2025-03-28 10:48:11,701 - DreamBodyVideo.Page - INFO - 다음 영상(2) 확대 시작
+2025-03-28 10:48:11,701 - DreamBodyVideo.Page - INFO - 비디오 2 확대 시작
+2025-03-28 10:48:11,701 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:48:11,703 - DreamBodyVideo.Page - INFO - 비디오 2 재생 정지
+2025-03-28 10:48:11,703 - DreamBodyVideo.Page - INFO - 3번 비디오 확대
+2025-03-28 10:48:11,708 - DreamBodyVideo.Page - INFO - 비디오 3 로드됨: ID=0iqP6WP2ET4
+2025-03-28 10:48:11,744 - DreamBodyVideo.Page - INFO - 비디오 3 재생 시작
+2025-03-28 10:48:11,744 - DreamBodyVideo.Page - INFO - 4번 비디오 축소
+2025-03-28 10:48:11,744 - DreamBodyVideo.Page - INFO - 비디오 2 확대 완료
+2025-03-28 10:48:12,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 59초
+2025-03-28 10:48:13,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 58초
+2025-03-28 10:48:14,200 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 57초
+2025-03-28 10:48:15,200 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 56초
+2025-03-28 10:48:16,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 55초
+2025-03-28 10:48:17,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 54초
+2025-03-28 10:48:18,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 53초
+2025-03-28 10:48:19,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 52초
+2025-03-28 10:48:20,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 51초
+2025-03-28 10:48:21,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 50초
+2025-03-28 10:48:22,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 49초
+2025-03-28 10:48:23,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 48초
+2025-03-28 10:48:24,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 47초
+2025-03-28 10:48:25,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 46초
+2025-03-28 10:48:26,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 45초
+2025-03-28 10:48:27,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 44초
+2025-03-28 10:48:28,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 43초
+2025-03-28 10:48:29,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 42초
+2025-03-28 10:48:30,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 41초
+2025-03-28 10:48:31,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 40초
+2025-03-28 10:48:32,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 39초
+2025-03-28 10:48:33,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 38초
+2025-03-28 10:48:34,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 37초
+2025-03-28 10:48:35,203 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 36초
+2025-03-28 10:48:36,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 35초
+2025-03-28 10:48:37,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 34초
+2025-03-28 10:48:38,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 33초
+2025-03-28 10:48:39,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 32초
+2025-03-28 10:48:40,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 31초
+2025-03-28 10:48:41,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 30초
+2025-03-28 10:48:42,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 29초
+2025-03-28 10:48:43,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 28초
+2025-03-28 10:48:44,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 27초
+2025-03-28 10:48:45,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 26초
+2025-03-28 10:48:46,203 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 25초
+2025-03-28 10:48:47,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 24초
+2025-03-28 10:48:48,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 23초
+2025-03-28 10:48:49,203 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 22초
+2025-03-28 10:48:50,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 21초
+2025-03-28 10:48:51,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 20초
+2025-03-28 10:48:52,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 19초
+2025-03-28 10:48:53,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 18초
+2025-03-28 10:48:54,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 17초
+2025-03-28 10:48:55,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 16초
+2025-03-28 10:48:56,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 15초
+2025-03-28 10:48:57,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 14초
+2025-03-28 10:48:58,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 13초
+2025-03-28 10:48:59,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 12초
+2025-03-28 10:49:00,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 11초
+2025-03-28 10:49:01,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 10초
+2025-03-28 10:49:02,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 9초
+2025-03-28 10:49:03,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 8초
+2025-03-28 10:49:04,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 7초
+2025-03-28 10:49:05,203 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 6초
+2025-03-28 10:49:06,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 5초
+2025-03-28 10:49:07,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 4초
+2025-03-28 10:49:08,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 3초
+2025-03-28 10:49:09,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 2초
+2025-03-28 10:49:10,201 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 1초
+2025-03-28 10:49:11,202 - DreamBodyVideo.Page - INFO - 비디오 2 남은 시간: 0초
+2025-03-28 10:49:11,701 - DreamBodyVideo.Page - INFO - 다음 영상(3) 확대 시작
+2025-03-28 10:49:11,701 - DreamBodyVideo.Page - INFO - 비디오 3 확대 시작
+2025-03-28 10:49:11,701 - DreamBodyVideo.Page - INFO - 2번 비디오 축소
+2025-03-28 10:49:11,701 - DreamBodyVideo.Page - INFO - 3번 비디오 축소
+2025-03-28 10:49:11,702 - DreamBodyVideo.Page - INFO - 비디오 3 재생 정지
+2025-03-28 10:49:11,702 - DreamBodyVideo.Page - INFO - 4번 비디오 확대
+2025-03-28 10:49:11,705 - DreamBodyVideo.Page - INFO - 비디오 4 로드됨: ID=__sqpWQ4-B8
+2025-03-28 10:49:11,736 - DreamBodyVideo.Page - INFO - 비디오 4 재생 시작
+2025-03-28 10:49:11,736 - DreamBodyVideo.Page - INFO - 비디오 3 확대 완료
+2025-03-28 10:49:11,736 - DreamBodyVideo.Page - INFO - 마지막 영상 확대 중, 종료 타이머 설정 (60초)
+2025-03-28 10:49:12,201 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 59초
+2025-03-28 10:49:13,201 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 58초
+2025-03-28 10:49:14,201 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 57초
+2025-03-28 10:49:15,200 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 56초
+2025-03-28 10:49:16,201 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 55초
+2025-03-28 10:49:17,201 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 54초
+2025-03-28 10:49:18,201 - DreamBodyVideo.Page - INFO - 비디오 3 남은 시간: 53초
