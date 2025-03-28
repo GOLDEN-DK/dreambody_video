@@ -47,11 +47,33 @@ class AddEditVideoDialog(QDialog):
         self.difficulty_combo.addItems(["쉬움", "중간", "어려움"])
         form_layout.addRow("난이도:", self.difficulty_combo)
         
-        # 영상 길이 (분)
-        self.duration_spin = QSpinBox()
-        self.duration_spin.setRange(1, 60)
-        self.duration_spin.setValue(5)
-        form_layout.addRow("길이(분):", self.duration_spin)
+        # 영상 길이 레이아웃 (분:초)
+        duration_layout = QHBoxLayout()
+        
+        # 분 입력
+        self.duration_min_spin = QSpinBox()
+        self.duration_min_spin.setRange(0, 60)
+        self.duration_min_spin.setValue(5)
+        self.duration_min_spin.setSuffix(" 분")
+        duration_layout.addWidget(self.duration_min_spin)
+        
+        # 구분자
+        separator_label = QLabel(":")
+        separator_label.setAlignment(Qt.AlignCenter)
+        separator_label.setStyleSheet("font-weight: bold;")
+        duration_layout.addWidget(separator_label)
+        
+        # 초 입력
+        self.duration_sec_spin = QSpinBox()
+        self.duration_sec_spin.setRange(0, 59)
+        self.duration_sec_spin.setValue(0)
+        self.duration_sec_spin.setSuffix(" 초")
+        duration_layout.addWidget(self.duration_sec_spin)
+        
+        # 여백 추가
+        duration_layout.addStretch()
+        
+        form_layout.addRow("길이:", duration_layout)
         
         layout.addLayout(form_layout)
         
@@ -92,7 +114,12 @@ class AddEditVideoDialog(QDialog):
                     self.difficulty_combo.setCurrentIndex(diff_index)
             
             if self.video.duration:
-                self.duration_spin.setValue(int(self.video.duration))
+                # 분과 초 분리
+                minutes = int(self.video.duration)
+                seconds = int((self.video.duration - minutes) * 60)
+                
+                self.duration_min_spin.setValue(minutes)
+                self.duration_sec_spin.setValue(seconds)
     
     def load_preview(self):
         url = self.url_edit.text()
@@ -112,12 +139,17 @@ class AddEditVideoDialog(QDialog):
         self.web_view.setUrl(QUrl(embed_url))
     
     def get_video_data(self):
+        # 분과 초를 합쳐서 duration 계산 (분 단위로 저장)
+        minutes = self.duration_min_spin.value()
+        seconds = self.duration_sec_spin.value()
+        duration = minutes + (seconds / 60.0)
+        
         return {
             'url': self.url_edit.text(),
             'title': self.title_edit.text(),
             'exercise_type': self.type_combo.currentText(),
             'difficulty': self.difficulty_combo.currentText(),
-            'duration': self.duration_spin.value()
+            'duration': duration
         }
 
 
@@ -191,7 +223,7 @@ class AdminWindow(QMainWindow):
         # 테이블 위젯
         self.videos_table = QTableWidget()
         self.videos_table.setColumnCount(6)
-        self.videos_table.setHorizontalHeaderLabels(["ID", "제목", "URL", "운동 타입", "난이도", "길이(분)"])
+        self.videos_table.setHorizontalHeaderLabels(["ID", "제목", "URL", "운동 타입", "난이도", "길이(분:초)"])
         self.videos_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeToContents)
         self.videos_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.Stretch)
         layout.addWidget(self.videos_table)
@@ -326,19 +358,36 @@ class AdminWindow(QMainWindow):
         self.load_system_settings()
     
     def load_videos(self):
+        # 세션 생성
         session = self.session_maker()
+        
+        # 모든 비디오 가져오기
         videos = session.query(Video).all()
         
+        # 테이블 설정
         self.videos_table.setRowCount(len(videos))
         
+        # 데이터 표시
         for i, video in enumerate(videos):
             self.videos_table.setItem(i, 0, QTableWidgetItem(str(video.id)))
             self.videos_table.setItem(i, 1, QTableWidgetItem(video.title))
             self.videos_table.setItem(i, 2, QTableWidgetItem(video.url))
             self.videos_table.setItem(i, 3, QTableWidgetItem(video.exercise_type or ""))
             self.videos_table.setItem(i, 4, QTableWidgetItem(video.difficulty or ""))
-            self.videos_table.setItem(i, 5, QTableWidgetItem(str(video.duration or "")))
+            
+            # 길이를 분:초 형식으로 표시
+            if video.duration is not None:
+                minutes = int(video.duration)
+                seconds = int((video.duration - minutes) * 60)
+                duration_text = f"{minutes}:{seconds:02d}"
+            else:
+                duration_text = ""
+            self.videos_table.setItem(i, 5, QTableWidgetItem(duration_text))
         
+        # 테이블 크기 조정
+        self.videos_table.resizeColumnsToContents()
+        
+        # 세션 종료
         session.close()
     
     def add_video(self):

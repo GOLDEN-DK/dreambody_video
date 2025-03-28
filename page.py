@@ -268,6 +268,7 @@ class WorkoutPage(QWidget):
         self.current_zoom_index = 0
         self.video_players = []
         self.start_countdown = 30  # 시작 카운트다운 (30초)
+        self.is_page_completed = False  # 페이지 종료 여부 플래그
         
         self.load_config()
         self.load_videos()
@@ -305,13 +306,14 @@ class WorkoutPage(QWidget):
         for pv in page_videos:
             video = session.query(Video).filter_by(id=pv.video_id).first()
             if video:
-                logger.info(f"영상 {pv.order}: {video.title} ({video.url})")
+                logger.info(f"영상 {pv.order}: {video.title} ({video.url}), 길이: {video.duration}분")
                 self.videos.append({
                     'order': pv.order,
                     'title': video.title,
                     'url': video.url,
                     'exercise_type': video.exercise_type,
-                    'difficulty': video.difficulty
+                    'difficulty': video.difficulty,
+                    'duration': video.duration  # 영상 길이 정보 추가 (분 단위)
                 })
             else:
                 logger.warning(f"영상 ID {pv.video_id}를 찾을 수 없습니다.")
@@ -396,7 +398,9 @@ class WorkoutPage(QWidget):
             number_layout.addWidget(number_label)
             
             # 타이머 레이블 추가
-            timer_label = QLabel("60s")
+            # 영상 길이를 초 단위로 변환 (데이터베이스에는 분 단위로 저장)
+            duration_seconds = int(video['duration'] * 60) if 'duration' in video and video['duration'] else self.zoom_duration
+            timer_label = QLabel(f"{duration_seconds}s")
             timer_label.setFont(QFont("Arial", 16, QFont.Bold))
             timer_label.setAlignment(Qt.AlignCenter)
             timer_label.setStyleSheet("color: #AAAAAA;")
@@ -475,6 +479,11 @@ class WorkoutPage(QWidget):
             self.initial_timer.start(100)  # 거의 즉시 시작 (0.1초 후)
     
     def update_video_timer(self):
+        # 이미 종료된 페이지인 경우 타이머 중지
+        if self.is_page_completed:
+            self.video_timer.stop()
+            return
+            
         # 현재 확대된 비디오의 남은 시간 업데이트
         if 0 <= self.current_zoom_index < len(self.video_players):
             player = self.video_players[self.current_zoom_index]
@@ -484,6 +493,13 @@ class WorkoutPage(QWidget):
             player.timer_label.setText(f"{player.remaining_time}s")
             player.timer_label.setStyleSheet("color: #00FF76; font-weight: bold;")
             
+            # 마지막 영상이고 타이머가 0 이하로 떨어졌을 때 즉시 종료
+            if (self.current_zoom_index == len(self.video_players) - 1 and player.remaining_time <= 0):
+                logger.info("마지막 영상 시간 종료, 페이지 종료")
+                self.video_timer.stop()  # 타이머 중지
+                self.complete_page()  # 페이지 완료 처리
+                return  # 더 이상 진행하지 않음
+            
             # 모든 비디오 플레이어의 타이머 레이블 스타일 설정
             for i, other_player in enumerate(self.video_players):
                 if i != self.current_zoom_index:
@@ -492,7 +508,11 @@ class WorkoutPage(QWidget):
                     
                     if i > self.current_zoom_index:
                         # 대기 중인 비디오는 기본 시간 표시
-                        other_player.timer_label.setText(f"{self.zoom_duration}s")
+                        if i < len(self.videos) and 'duration' in self.videos[i] and self.videos[i]['duration']:
+                            duration_seconds = int(self.videos[i]['duration'] * 60)
+                            other_player.timer_label.setText(f"{duration_seconds}s")
+                        else:
+                            other_player.timer_label.setText(f"{self.zoom_duration}s")
                     else:
                         # 이미 재생된 비디오는 "완료" 표시
                         other_player.timer_label.setText("DONE")
@@ -504,17 +524,28 @@ class WorkoutPage(QWidget):
             logger.info("첫 번째 영상 확대 시작")
             
             # 모든 플레이어의 타이머 초기화
-            for player in self.video_players:
-                player.remaining_time = self.zoom_duration
-                player.timer_label.setText(f"{self.zoom_duration}s")
+            for i, player in enumerate(self.video_players):
+                # 각 영상의 실제 길이(초)로 타이머 설정
+                if i < len(self.videos) and 'duration' in self.videos[i] and self.videos[i]['duration']:
+                    duration_seconds = int(self.videos[i]['duration'] * 60)
+                    player.remaining_time = duration_seconds
+                    player.timer_label.setText(f"{duration_seconds}s")
+                else:
+                    player.remaining_time = self.zoom_duration
+                    player.timer_label.setText(f"{self.zoom_duration}s")
                 
             # 첫 번째 영상 확대 및 타이머 시작
             self.zoom_video(0)
             self.video_timer.start(1000)  # 1초마다 타이머 업데이트
             
-            # 다음 전환 타이머 시작
-            logger.info(f"다음 영상 전환 타이머 시작 ({self.zoom_duration}초)")
-            self.zoom_timer.start(self.zoom_duration * 1000)
+            # 첫 번째 영상의 길이에 맞춰 다음 전환 타이머 설정
+            if 'duration' in self.videos[0] and self.videos[0]['duration']:
+                first_video_duration = int(self.videos[0]['duration'] * 60) * 1000  # 밀리초 단위로 변환
+                logger.info(f"다음 영상 전환 타이머 시작 ({first_video_duration/1000}초)")
+                self.zoom_timer.start(first_video_duration)
+            else:
+                logger.info(f"다음 영상 전환 타이머 시작 ({self.zoom_duration}초)")
+                self.zoom_timer.start(self.zoom_duration * 1000)
         else:
             logger.warning("영상 플레이어가 없어 확대 불가")
     
@@ -531,10 +562,18 @@ class WorkoutPage(QWidget):
         if next_index < len(self.video_players):
             logger.info(f"다음 영상({next_index + 1}) 확대 시작")
             
-            # 다음 비디오 타이머 초기화
+            # 다음 비디오 타이머 초기화 - 실제 영상 길이 사용
             next_player = self.video_players[next_index]
-            next_player.remaining_time = self.zoom_duration
-            next_player.timer_label.setText(f"{self.zoom_duration}s")
+            
+            # 영상 길이 설정 (데이터베이스의 값 또는 기본값)
+            if next_index < len(self.videos) and 'duration' in self.videos[next_index] and self.videos[next_index]['duration']:
+                duration_seconds = int(self.videos[next_index]['duration'] * 60)
+                next_player.remaining_time = duration_seconds
+                next_player.timer_label.setText(f"{duration_seconds}s")
+            else:
+                next_player.remaining_time = self.zoom_duration
+                next_player.timer_label.setText(f"{self.zoom_duration}s")
+                
             next_player.timer_label.setStyleSheet("color: #00FF76; font-weight: bold;")
             
             # 비디오 확대 실행
@@ -542,9 +581,26 @@ class WorkoutPage(QWidget):
             
             # 마지막 영상인 경우 종료 타이머 설정
             if next_index == len(self.video_players) - 1:
-                logger.info(f"마지막 영상 확대 중, 종료 타이머 설정 ({self.zoom_duration}초)")
-                self.zoom_timer.stop()
-                self.completion_timer.start(self.zoom_duration * 1000)
+                # 마지막 영상의 실제 길이 사용
+                if next_index < len(self.videos) and 'duration' in self.videos[next_index] and self.videos[next_index]['duration']:
+                    last_video_duration = int(self.videos[next_index]['duration'] * 60) * 1000
+                    logger.info(f"마지막 영상 확대 중, 종료 타이머 설정 ({last_video_duration/1000}초)")
+                    self.zoom_timer.stop()
+                    # 타이머는 설정하지만 백업으로 남겨두고 update_video_timer에서도 체크
+                    self.completion_timer.start(last_video_duration + 1000)  # 1초 더 여유를 둠
+                else:
+                    logger.info(f"마지막 영상 확대 중, 종료 타이머 설정 ({self.zoom_duration}초)")
+                    self.zoom_timer.stop()
+                    self.completion_timer.start(self.zoom_duration * 1000 + 1000)  # 1초 더 여유를 둠
+            else:
+                # 다음 전환 타이머 설정 - 다음 영상의 실제 길이 사용
+                if next_index < len(self.videos) and 'duration' in self.videos[next_index] and self.videos[next_index]['duration']:
+                    next_video_duration = int(self.videos[next_index]['duration'] * 60) * 1000
+                    logger.info(f"다음 영상 전환 타이머 시작 ({next_video_duration/1000}초)")
+                    self.zoom_timer.start(next_video_duration)
+                else:
+                    logger.info(f"다음 영상 전환 타이머 시작 ({self.zoom_duration}초)")
+                    self.zoom_timer.start(self.zoom_duration * 1000)
         else:
             # 모든 타이머 정지
             self.video_timer.stop()
@@ -587,7 +643,38 @@ class WorkoutPage(QWidget):
         logger.info(f"비디오 {index + 1} 확대 완료")
     
     def complete_page(self):
+        # 이미 종료 처리된 페이지인 경우 중복 실행 방지
+        if self.is_page_completed:
+            return
+            
+        # 종료 플래그 설정
+        self.is_page_completed = True
+        
+        # 모든 타이머 정지
+        if hasattr(self, 'countdown_timer'):
+            self.countdown_timer.stop()
+        if hasattr(self, 'initial_timer'):
+            self.initial_timer.stop()
+        if hasattr(self, 'zoom_timer'):
+            self.zoom_timer.stop()
+        if hasattr(self, 'video_timer'):
+            self.video_timer.stop()
+        if hasattr(self, 'completion_timer'):
+            self.completion_timer.stop()
+            
+        # 모든 영상 플레이어 정지
+        for player in self.video_players:
+            if player.is_playing:
+                player.toggle_play()
+        
+        logger.info("페이지 완료 처리: 모든 타이머와 영상 정지")
+        
+        # 페이지 완료 시그널 발생
         self.page_completed.emit(self.page_id)
+        
+        # 창 닫기 (테스트 모드일 경우)
+        if __name__ == "__main__":
+            self.close()
     
     def resizeEvent(self, event):
         # 윈도우 크기가 변경될 때 영상 크기 즉시 조정 (애니메이션 없이)
