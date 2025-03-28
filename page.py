@@ -84,7 +84,7 @@ class VideoPlayer(QFrame):
         
         layout.addWidget(self.media_container, 1)
         
-        # 오른쪽 상단에 시간 표시 (영상 길이 또는 남은 시간)
+        # 오른쪽 상단에 시간 표시 (영상 길이 또는 남은 시간) - 숨김 처리
         self.duration_label = QLabel("15")
         self.duration_label.setFont(QFont("Arial", 14, QFont.Bold))
         self.duration_label.setAlignment(Qt.AlignRight | Qt.AlignTop)
@@ -94,8 +94,10 @@ class VideoPlayer(QFrame):
             border-radius: 10px;
             padding: 3px;
             margin: 5px;
+            display: none; /* 레이블 숨김 */
         """)
         self.duration_label.setFixedSize(30, 30)
+        self.duration_label.hide()  # 레이블 명시적으로 숨김
         
         # 레이블을 미디어 컨테이너 위에 배치
         self.duration_label.setParent(self.media_container)
@@ -306,14 +308,17 @@ class WorkoutPage(QWidget):
         for pv in page_videos:
             video = session.query(Video).filter_by(id=pv.video_id).first()
             if video:
-                logger.info(f"영상 {pv.order}: {video.title} ({video.url}), 길이: {video.duration}분")
+                # 표시 번호 계산 (display_number가 설정되어 있으면 그 값을, 아니면 order+1 사용)
+                display_num = pv.display_number if pv.display_number is not None else (pv.order + 1)
+                logger.info(f"영상 {pv.order}: {video.title} ({video.url}), 길이: {video.duration}분, 표시번호: {display_num}")
                 self.videos.append({
                     'order': pv.order,
                     'title': video.title,
                     'url': video.url,
-                    'exercise_type': video.exercise_type,
+                    'exercise_type': video.exercise_type, 
                     'difficulty': video.difficulty,
-                    'duration': video.duration  # 영상 길이 정보 추가 (분 단위)
+                    'duration': video.duration,  # 영상 길이 정보 추가 (분 단위)
+                    'display_number': display_num  # 표시 번호 추가
                 })
             else:
                 logger.warning(f"영상 ID {pv.video_id}를 찾을 수 없습니다.")
@@ -391,7 +396,7 @@ class WorkoutPage(QWidget):
             number_layout.setContentsMargins(0, 5, 0, 5)
             
             # 번호 레이블
-            number_label = QLabel(f"{video['order'] + 1:02d}")
+            number_label = QLabel(f"{video['display_number']:02d}")
             number_label.setFont(QFont("Arial", 30, QFont.Bold))
             number_label.setAlignment(Qt.AlignCenter)
             number_label.setStyleSheet("color: white;")

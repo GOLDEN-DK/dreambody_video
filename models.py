@@ -45,6 +45,7 @@ class PageVideo(Base):
     page_id = Column(Integer, ForeignKey('pages.id'), nullable=False)
     video_id = Column(Integer, ForeignKey('videos.id'), nullable=False)
     order = Column(Integer, nullable=False)  # 1, 2, 3 (페이지 내 표시 순서)
+    display_number = Column(Integer)  # 화면에 표시될 번호 (미설정 시 order+1 사용)
     
     page = relationship("Page", back_populates="page_videos")
     video = relationship("Video", back_populates="page_videos")

@@ -278,6 +278,14 @@ class AdminWindow(QMainWindow):
         self.video1_layout.addWidget(QLabel("1번 영상:"))
         self.video1_combo = QComboBox()
         self.video1_layout.addWidget(self.video1_combo, 1)
+        
+        # 1번 영상 표시 번호
+        self.video1_layout.addWidget(QLabel("표시 번호:"))
+        self.display_num1_spin = QSpinBox()
+        self.display_num1_spin.setRange(1, 99)
+        self.display_num1_spin.setValue(1)
+        self.video1_layout.addWidget(self.display_num1_spin)
+        
         assignments_layout.addLayout(self.video1_layout)
         
         # 2번 영상 할당
@@ -285,6 +293,14 @@ class AdminWindow(QMainWindow):
         self.video2_layout.addWidget(QLabel("2번 영상:"))
         self.video2_combo = QComboBox()
         self.video2_layout.addWidget(self.video2_combo, 1)
+        
+        # 2번 영상 표시 번호
+        self.video2_layout.addWidget(QLabel("표시 번호:"))
+        self.display_num2_spin = QSpinBox()
+        self.display_num2_spin.setRange(1, 99)
+        self.display_num2_spin.setValue(2)
+        self.video2_layout.addWidget(self.display_num2_spin)
+        
         assignments_layout.addLayout(self.video2_layout)
         
         # 3번 영상 할당
@@ -292,9 +308,22 @@ class AdminWindow(QMainWindow):
         self.video3_layout.addWidget(QLabel("3번 영상:"))
         self.video3_combo = QComboBox()
         self.video3_layout.addWidget(self.video3_combo, 1)
+        
+        # 3번 영상 표시 번호
+        self.video3_layout.addWidget(QLabel("표시 번호:"))
+        self.display_num3_spin = QSpinBox()
+        self.display_num3_spin.setRange(1, 99)
+        self.display_num3_spin.setValue(3)
+        self.video3_layout.addWidget(self.display_num3_spin)
+        
         assignments_layout.addLayout(self.video3_layout)
         
         layout.addWidget(assignments_group)
+        
+        # 설명 추가
+        help_label = QLabel("※ 표시 번호는 영상 앞에 표시될 번호입니다. 실제 재생 순서는 왼쪽의 '1번, 2번, 3번' 지정에 의해 결정됩니다.")
+        help_label.setStyleSheet("color: #666; font-style: italic;")
+        layout.addWidget(help_label)
         
         # 저장 버튼
         save_layout = QHBoxLayout()
@@ -518,16 +547,28 @@ class AdminWindow(QMainWindow):
         
         session = self.session_maker()
         
-        # 현재 할당된 영상 아이디 찾기
-        video_ids = {1: None, 2: None, 3: None}
+        # 현재 할당된 영상 정보 찾기
+        video_infos = {1: {'id': None, 'display_number': 1}, 
+                       2: {'id': None, 'display_number': 2}, 
+                       3: {'id': None, 'display_number': 3}}
+        
         page_videos = session.query(PageVideo).filter_by(page_id=page_id).all()
         
         for pv in page_videos:
-            video_ids[pv.order] = pv.video_id
+            video_infos[pv.order]['id'] = pv.video_id
+            video_infos[pv.order]['display_number'] = pv.display_number if pv.display_number is not None else pv.order
         
         # 콤보박스 선택 업데이트
-        for order, combo in [(1, self.video1_combo), (2, self.video2_combo), (3, self.video3_combo)]:
-            video_id = video_ids[order]
+        for order, combo, spin in [
+            (1, self.video1_combo, self.display_num1_spin), 
+            (2, self.video2_combo, self.display_num2_spin), 
+            (3, self.video3_combo, self.display_num3_spin)
+        ]:
+            video_id = video_infos[order]['id']
+            display_number = video_infos[order]['display_number']
+            
+            # 스핀 박스 값 설정
+            spin.setValue(display_number)
             
             index = 0  # 기본값: 선택 안 함
             if video_id:
@@ -550,6 +591,10 @@ class AdminWindow(QMainWindow):
         video1_id = self.video1_combo.currentData()
         video2_id = self.video2_combo.currentData()
         video3_id = self.video3_combo.currentData()
+        
+        display_num1 = self.display_num1_spin.value()
+        display_num2 = self.display_num2_spin.value()
+        display_num3 = self.display_num3_spin.value()
         
         # 필수 영상 확인
         missing_videos = []
@@ -574,9 +619,9 @@ class AdminWindow(QMainWindow):
         
         # 새로운 할당 추가
         new_assignments = [
-            PageVideo(page_id=page_id, video_id=video1_id, order=1),
-            PageVideo(page_id=page_id, video_id=video2_id, order=2),
-            PageVideo(page_id=page_id, video_id=video3_id, order=3)
+            PageVideo(page_id=page_id, video_id=video1_id, order=1, display_number=display_num1),
+            PageVideo(page_id=page_id, video_id=video2_id, order=2, display_number=display_num2),
+            PageVideo(page_id=page_id, video_id=video3_id, order=3, display_number=display_num3)
         ]
         
         session.add_all(new_assignments)
